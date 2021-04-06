@@ -1,6 +1,8 @@
 # ft_serveur
 
 http://127.0.0.1
+http://127.0.0.1/phpMyAdmin/
+http://127.0.0.1/wordpress/
 
 docker run
 docker run -p 80:80 nginx // -p pour définir l'utilisation de ports
