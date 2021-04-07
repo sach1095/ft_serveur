@@ -13,7 +13,7 @@ server {
 
 		server_name localhost;
 
-		autoindex on;
+		autoindex off;
 
 		root /var/www/localhost;
 		index index.php index.html index.htm;
