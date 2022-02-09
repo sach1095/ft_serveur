@@ -1,3 +1,18 @@
+Ce projet nous fait decouvrir les base de docker
+
+Dans ce projet il est nous etait demander de crée un dokcer avec les service suivant :
+
+- PhpMyAdmin
+- Wordpress
+- Mariadb
+
+Ce projet a ete tres utile pour comprendre le fonctionement de docker et des service qui nous ont ete demander.
+
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+
+les commande et note qui m'ont ete utilie pour se projet sont afficher ci-dessous.
+
 # ft_serveur
 
 http://127.0.0.1
