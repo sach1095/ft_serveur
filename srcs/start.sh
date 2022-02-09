@@ -1,6 +1,6 @@
 #creation des certif ssl
 mkdir /etc/nginx/ssl
-openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/nginx/ssl/localhost.pem -keyout /etc/nginx/ssl/localhost.key -subj "/C=FR/ST=Paris/L=Paris/O=42 School/OU=emma/CN=localhost"
+openssl req -newkey rsa:4096 -x509 -sha256 -days 365 -nodes -out /etc/nginx/ssl/localhost.pem -keyout /etc/nginx/ssl/localhost.key -subj "/C=FR/ST=Lyon/L=Lyon/O=42 School/OU=sacha/CN=localhost"
 
 #configuration de nginx et du dossier localhost
 mkdir var/www/localhost
@@ -23,7 +23,7 @@ mv ./config.inc.php var/www/localhost/phpmyadmin
 chmod 660 /var/www/localhost/phpmyadmin/config.inc.php
 chown -R www-data:www-data /var/www/localhost/phpmyadmin
 service php7.3-fpm start
-echo "GRANT ALL ON *.* TO 'emma'@'localhost' IDENTIFIED BY '123'" | mysql -u root
+echo "GRANT ALL ON *.* TO 'goku'@'localhost' IDENTIFIED BY 'kamehameha'" | mysql -u root
 echo "FLUSH PRIVILEGES;" | mysql -u root
 
 #telechargement et configuration de wordpress
